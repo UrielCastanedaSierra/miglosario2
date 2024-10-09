@@ -33,3 +33,77 @@ footer .footer-text p{
     text-align: center;
     color: #fff;
 }
+
+img .{
+display:block;
+margin:auto;
+}
+
+nav{ 
+ background: green; 
+ float: left; 
+ width: 100%; 
+ height: 60px; 
+} 
+nav ul li{ 
+ display: inline-block; 
+ margin: 5px; 
+ background:rgba(35, 235, 95, 0.712);
+} 
+nav ul li a{ 
+ color: white; 
+ font-size: 17px; 
+ text-decoration: none; 
+ transition: .3s; 
+} 
+nav ul li a:hover{ 
+ font-size: 25px; 
+ color: cyan; 
+}
+
+#seccion1 { 
+    width: 68%; 
+    border: 2px solid #760001; 
+    border-radius: 5px; 
+    font-size: 1.2em; 
+    text-align: justify; 
+    padding: 10px; 
+    background: rgba(59, 128, 79, 0.712);
+} 
+
+#redes { 
+     width: 27%; 
+     position: relative; 
+     background-color: #c7da5f; 
+     box-shadow: 0px 2px 5px #1b1917; 
+     border-radius: 5px; 
+     padding: 10px; 
+     color: black; 
+     font-size: 0.9em; 
+    } 
+
+ #seccion1, #redes{ 
+    display: inline-block; 
+    margin: 5px 0px 0px; 
+    vertical-align: top; 
+    } 
+        
+#articulo1{ 
+    width: 65%; 
+    float: left; 
+    background-color: salmon; 
+    } 
+#imagen_articulo1{ 
+    width: 30%; 
+    float: right; 
+    background-color: rgb(152, 175, 250); 
+    } 
+#Articulo1, #imagen_articulo1{ 
+        display: inline-block;
+    }
+
+#Articulo2{ 
+    width: 100%; 
+    float: left; 
+    background-color: rgb(164, 222, 229); 
+    } 
